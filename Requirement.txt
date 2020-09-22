@@ -1,0 +1,9 @@
+For Running this application locally following are the requiremnts - 
+
+1. Node js
+2. npm  (installed with Node)
+3. Bootstrap4 (CDN)
+4. express
+5. request
+6. body-parser
+
