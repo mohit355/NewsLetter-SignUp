@@ -39,11 +39,14 @@ var data={
 
 var jsondata=JSON.stringify(data);
 
+  // XXXX- Replace this with the last 4 digit of the API KEY
+  // XXXXXXX - Replace this with the list key
+  // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  - Replace this with API KEY
   var options ={
-    url: "https://us2.api.mailchimp.com/3.0/lists/e8db75d7fa",
+    url: "https://XXXX.api.mailchimp.com/3.0/lists/XXXXXXX",   
     method: "POST",
     headers:{
-      "Authorization":"Mohit 3b1f11667ad16e093c3ab3a4db0903ec-us2"
+      "Authorization":"Mohit XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     body: jsondata
   }
@@ -75,5 +78,4 @@ app.listen(process.env.PORT || 3000 ,function(){
   console.log("server is running at port number 3000");
 })
 
-//e8db75d7fa
-// 3b1f11667ad16e093c3ab3a4db0903ec-us2
+
